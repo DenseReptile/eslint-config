@@ -29,7 +29,7 @@ module.exports = {
     "no-class-assign": "error",
     "no-compare-neg-zero": "error",  // Redundant.
     "no-cond-assign": ["error", "except-parens"],  // Likely a bug unless deliberate.
-    "no-const-assign": "error",  // NOTE: Constants are mutable. Use Immer for immutability.
+    "no-const-assign": "error",  // NOTE: Constants are mutable. Use Immer for deep immutability.
     "no-constant-binary-expression": "error",  // Unintentional redundancy.
     "no-constant-condition": [
       "warn",
